@@ -28,7 +28,7 @@
 }
 
 body{
-    background-color: var(--Pale-blue);
+    background-color: var(--White);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,6 +40,7 @@ body{
     display: flex;
     background-color: var(--White);
     border-radius: 1.5rem;
+    box-shadow: rgb(0, 0, 0, .24) 0px 3px 8px;
 }
 .card-result{
     width: 50%;
@@ -101,7 +102,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: .75rem;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 16px;
 }
 .summary-cards-title{
